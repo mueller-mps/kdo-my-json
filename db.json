@@ -24,13 +24,15 @@
         "kdo_task_membership": [
             {
                 "kdo_name": "Ron Wetzel",
-                "kdo_image": "ABC=="
+                "kdo_image": "http://i.pravatar.cc/300"
             },
             {
-                "kdo_name": "Martin Müller"
+                "kdo_name": "Martin Müller",
+                "kdo_image": "http://i.pravatar.cc/300"
             },
             {
-                "kdo_name": "Christopher Maisik"
+                "kdo_name": "Christopher Maisik",
+                "http://i.pravatar.cc/300"
             }
         ],
         "kdo_task_sorting" :[
