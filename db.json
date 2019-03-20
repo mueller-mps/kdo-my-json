@@ -1,11 +1,53 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "hello"
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "kdo_tasks": [ 
+        {
+            "kdo_taskid": "task-1",
+            "kdo_name": "Konzeption: To-Do",
+            "kdo_description": "Datenmodell und Anforderungen",
+            "kdo_duedate": "01.03.2019",
+            "kdo_process_color": "#107c10",
+            "kdo_count_checklist_all": 7,
+            "kdo_count_checklist_completed": 5,
+            "kdo_count_subtasks_all": 3,
+            "kdo_count_subtasks_completed": 3,
+            "kdo_sum_estimated": "100:00",
+            "kdo_sum_actual": "76:00",
+            "kdo_sum_remaining": "26:00",
+            "kdo_percentage_complete": 0.76,
+            "kdo_groups": [
+                "status-21",
+                "responsible-12",
+                "phase-1",
+                "context-12"
+            ],
+            "kdo_task_membership": [
+                {
+                    "kdo_name": "Ron Wetzel",
+                    "kdo_image": "http://i.pravatar.cc/300"
+                },
+                {
+                    "kdo_name": "Martin Müller",
+                    "kdo_image": "http://i.pravatar.cc/300"
+                },
+                {
+                    "kdo_name": "Christopher Maisik",
+                    "kdo_image": "http://i.pravatar.cc/300"
+                }
+            ],
+            "kdo_task_sorting" :[
+                {
+                    "kdo_sortid": "context-32",
+                    "kdo_order": 32.125
+                },
+                {
+                    "kdo_sortid": "responsible-21",
+                    "kdo_order": 10
+                },
+                {
+                    "kdo_sortid": "view-21",
+                    "kdo_order": 30
+                }
+            ]
+        }
+    ]
 }
