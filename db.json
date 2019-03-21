@@ -16,22 +16,63 @@
             "kdo_percentage_complete": 0.76,
             "kdo_groups": [
                 "status-21",
-                "responsible-12",
-                "phase-1",
-                "context-12"
+                "respnsible-16",
+                "phase-23",
+                "context-1"
             ],
             "kdo_task_membership": [
                 {
-                    "kdo_name": "Ron Wetzel",
-                    "kdo_image": "http://i.pravatar.cc/300"
+                    "kdo_name": "Linda Scholz",
+                    "kdo_image": "https://randomuser.me/api/portraits/women/47.jpg"
                 },
                 {
-                    "kdo_name": "Martin Müller",
-                    "kdo_image": "http://i.pravatar.cc/300"
+                    "kdo_name": "Bernhard Baas",
+                    "kdo_image": "https://randomuser.me/api/portraits/men/32.jpg"
                 },
                 {
-                    "kdo_name": "Christopher Maisik",
-                    "kdo_image": "http://i.pravatar.cc/300"
+                    "kdo_name": "Mats Gunnarsen",
+                    "kdo_image": "https://tinyfac.es/data/avatars/7D3FA6C0-83C8-4834-B432-6C65ED4FD4C3-500w.jpeg"
+                }
+            ],
+            "kdo_task_sorting" :[
+                {
+                    "kdo_sortid": "context-32",
+                    "kdo_order": 32.125
+                },
+                {
+                    "kdo_sortid": "responsible-21",
+                    "kdo_order": 10
+                },
+                {
+                    "kdo_sortid": "view-21",
+                    "kdo_order": 30
+                }
+            ]
+        },
+        {
+            "kdo_taskid": "task-2",
+            "kdo_name": "Konzept: Dynamische To-Dos",
+            "kdo_description": null,
+            "kdo_duedate": null,
+            "kdo_process_color": null,
+            "kdo_count_checklist_all": 7,
+            "kdo_count_checklist_completed": 5,
+            "kdo_count_subtasks_all": 3,
+            "kdo_count_subtasks_completed": 3,
+            "kdo_sum_estimated": "100:00",
+            "kdo_sum_actual": "76:00",
+            "kdo_sum_remaining": "26:00",
+            "kdo_percentage_complete": 0.76,
+            "kdo_groups": [
+                "status-21",
+                "responsible-25",
+                "phase-23",
+                "context-1"
+            ],
+            "kdo_task_membership": [
+                {
+                    "kdo_name": "Bernhard Baas",
+                    "kdo_image": "https://randomuser.me/api/portraits/men/32.jpg"
                 }
             ],
             "kdo_task_sorting" :[
@@ -50,7 +91,52 @@
             ]
         }
     ],
-     "profile": {
-        "name": "kdo"
-  }
+    "kdo_board": {
+        "task_template": {
+            "kdo_contextid": "context-1"
+        },
+        "kdo_groups": [
+            {
+                "contexts": [
+                    {
+                        "kdo_groupid": "context-1",
+                        "kdo_name": "Entwicklung einer To-Do App"
+                    }
+                ],
+                "phases": [
+                    {
+                        "kdo_groupid": "phase-22",
+                        "kdo_name": "Backlog",
+                        "kdo_icon" : ""
+                    },
+                    {
+                        "kdo_groupid": "phase-23",
+                        "kdo_name": "Iteration 1"
+                    },
+                    {
+                        "kdo_groupid": "phase-25",
+                        "kdo_name": "Iteration 2"
+                    }                                
+                ],
+                "responsibles": [
+                    {
+                        "kdo_groupid": "respnsible-16",
+                        "kdo_name": "Linda Scholz"
+                    },
+                    {
+                        "kdo_groupid": "responsible-25",
+                        "kdo_name": "Mats Gunnarsen"
+                    },
+                    {
+                        "kdo_groupid": "responsible-25",
+                        "kdo_name": "Bernhard Baas"
+                    }
+                ]
+            }
+        ],
+        "kdo_filter": [
+            "context-1",
+            "phase-23"
+        ]
+    }
 }
